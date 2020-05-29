@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-image: url(../Images/space.jpg);
+  background-size: cover;
+}
+
+#root {
+  height: 75vh;
+  width: 75vw;
+}
+
+canvas {
+  border-radius: 10px;
+  border: solid 3px rgba(255, 255, 255, 0.7);
+}
+
+h1 {
+  color: back;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#hud {
+  display: flex;
+  flex-direction: row;
+}
+
+#hud > * {
+  margin: 20px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 20px;
+  height: 40px;
+  min-width: 150px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  padding: 0px 20px;
+}
+
+.heart {
+  margin: 0px 5px;
+}
